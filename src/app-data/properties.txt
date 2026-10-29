@@ -1,0 +1,5 @@
+test|test|ssssstest|House||1000.0|Available|Ketanwial,Maladuw,Akuressa|Akuressa|null|5|2|450.0|2010|Swimming Pool,Gym,Security|null
+test|House||1500.0|Pending|Ketanwial,Maladuw,Akuressa|Akuressa|null|2|2|200.0|2010|Swimming Pool,Gym,Parking,Garden,Security|null
+aaaaaaaa|House||2222.0|Sold|Ketanwial,Maladuw,Akuressa|Akuressa|Southern|5|2|150.0|2010|Swimming Pool,Garden|aaaaaaaa.png
+Leo Apartment|Apartment|sssss|6.5E7|Sold|Ketanwila, Maliduwa|Akuressa|Southern|6|4|2500.0|2010|Swimming Pool,Gym,Garden,Balcony,Air Conditioning|Leo Apartment.jpg
+Leo Apartment|Apartment|sssss|6.5E7|Sold|Ketanwila, Maliduwa|Akuressa|Southern|6|4|2500.0|2010|Swimming Pool,Gym,Garden,Balcony,Air Conditioning|Leo Apartment.jpg

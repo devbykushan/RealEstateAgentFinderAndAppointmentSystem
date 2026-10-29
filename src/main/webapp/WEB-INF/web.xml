@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+
+    <session-config>
+        <session-timeout>60</session-timeout>
+    </session-config>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.HomeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDashboard</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AdminDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminDashboard</servlet-name>
+        <url-pattern>/admin-dashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AdminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/admin-login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentAppointment</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentAppointmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentAppointment</servlet-name>
+        <url-pattern>/agent-appointments</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentDashboard</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentDashboard</servlet-name>
+        <url-pattern>/agent-dashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentLogin</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentLogin</servlet-name>
+        <url-pattern>/agent-login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentProperties</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentPropertiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentProperties</servlet-name>
+        <url-pattern>/agent-properties</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentReviews</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentReviewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentReviews</servlet-name>
+        <url-pattern>/agent-reviews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AgentSignup</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.AgentSignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AgentSignup</servlet-name>
+        <url-pattern>/agent-signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserDashboard</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.UserDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDashboard</servlet-name>
+        <url-pattern>/user-dashboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.UserLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/user-login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserProperties</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.UserPropertiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserProperties</servlet-name>
+        <url-pattern>/user-properties</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserReviews</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.UserReviewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserReviews</servlet-name>
+        <url-pattern>/user-reviews</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSignup</servlet-name>
+        <servlet-class>org.example.realestateagentfinderandappointmentsystem.servlets.UserSignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserSignup</servlet-name>
+        <url-pattern>/user-signup</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>
